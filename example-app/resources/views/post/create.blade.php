@@ -43,7 +43,7 @@
                 <label for="tags" class="form-label">Tags</label>
                 <select class="form-select" multiple aria-label="multiple select example" name="tags[]">
                     @foreach($tags as $tag)
-                        <option value="{{$tag->id}}">{{$tag->title}}</option>
+                        <option value="{{$tag->id}}">{{$tag->id}}</option>
                     @endforeach💋💋🤗
                 </select>
             </div>
